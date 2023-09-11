@@ -17,8 +17,8 @@
         <Reference Include="System.Transactions" />
     </ItemGroup>
     <ItemGroup>
-        <PackageReference Include="Azure.Messaging.ServiceBus" Version="7.3.0" />
-        <PackageReference Include="Hangfire.Core" Version="1.7.0" />
-        <PackageReference Include="Hangfire.SqlServer" Version="1.7.0" />
+        <PackageReference Include="Azure.Messaging.ServiceBus" Version="7.16.1" />
+        <PackageReference Include="Hangfire.Core" Version="1.8.5" />
+        <PackageReference Include="Hangfire.SqlServer" Version="1.8.5" />
     </ItemGroup>
 </Project>
