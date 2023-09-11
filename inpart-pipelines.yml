@@ -19,4 +19,4 @@ resources:
       name: Inpart Saúde - Repositorios/_git/Inpart.DevSecOps
 
 jobs:
-  - template: AzurePipelines/DotNetPackage/azure-pipelines.yml@templates
+  - template: AzurePipelines/DotNetPackage/hangfire-github.yml@templates
