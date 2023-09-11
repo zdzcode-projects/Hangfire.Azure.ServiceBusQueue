@@ -1,11 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <TargetFrameworks>net461;netstandard2.0</TargetFrameworks>
+        <Version>1.8.5</Version>
         <DebugType>portable</DebugType>
         <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
         <NoWarn>1591</NoWarn>
         <RootNamespace>Hangfire.Azure.ServiceBusQueue</RootNamespace>
+        <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     </PropertyGroup>
     <PropertyGroup Condition="'$(TargetFramework)'=='net45'">
         <DebugType>full</DebugType>
